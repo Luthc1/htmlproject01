@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="form.html">Отзыв</a>
+            <a href="Russia.html">Россия</a>
+        </nav>
+    </header>
+
+    <body>
+        <main>
+            <div class="card">
+                <form action="action.php" method="post">
+
+                    <label for="name"> <b>ФИО</b></label>
+                    <input type="text" placeholder="Имя Фамилия Очество" id="name" name="name" required>
+
+
+                    <label for="phone"> <b>ТЕЛЕФОН</b></label>
+                    <input type="tel" placeholder="79000000000" id="phone" name="phone" required>
+
+
+                    <label for="email"> <b>ЭМАИЛ</b></label>
+                    <input type="email" placeholder=".......gmail.com" id="name" name="name" required>
+
+                    <label for="time"> <b>Время</b></label>
+                    <input type="time" id="time" name="data" required>
+
+                    <label for="data"> <b>Дата</b></label>
+                    <input type="data" id="data" name="data" required>
+
+                    <label for="adds_for_site"> <b>Чего вам не хватает на сайте</b></label>
+                    <div class="inner_padding_container" id="adds_for_site">
+
+
+                        <label class="container">Мало информации о стране
+                            <input name="about_country" type="checkbox">
+                            <span class="cheskmark"></span>
+                        </label>
+
+                        <label class="container">Вам понравился Сайт
+                            <input name="about_sait" type="checkbox">
+                            <span class="cheskmark"></span>
+                        </label>
+
+
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            &copy;2023 Все права защищены
+        </footer>
+    </body>
+
+</html>
